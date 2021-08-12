@@ -11,6 +11,7 @@ if(!($con = new mysqli($host, $user, $password, $dbname, $port, $socket))){
     die ("No se puede conectar a la Base de Datos." .mysqli_connect_error());
     }else{ 
       $msj="Conectado a la base de datos Exitosamente <h2>Bienvenido</h2>";
+      echo $msj;
     }
     echo "<br /><br /><br /><p><a href='../index.html'>Inicio</a></p>";
 ?>
