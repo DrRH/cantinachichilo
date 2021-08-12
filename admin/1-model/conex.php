@@ -1,11 +1,11 @@
 <?php
 #Parámetros de conexión a la base de datos del aplicativo
-$host="127.0.0.1";
+$host="http://62.171.160.194/";
 $port=3306;
 $socket="";
-$user="root";
-$password="";
-$dbname="chichilo";
+$user="Dorian_admin";
+$password="Dorian_admin71707*";
+$dbname="Dorian_chichilo";
 if(!($con = new mysqli($host, $user, $password, $dbname, $port, $socket))){
     die ("No se puede conectar a la Base de Datos." .mysqli_connect_error());
     }else{ 
