@@ -1,4 +1,5 @@
 <?php
+echo 'esta es la página de conexión a la BD';
 #Parámetros de conexión a la base de datos del aplicativo
 $host="http://62.171.160.194/";
 $port=3306;
