@@ -505,7 +505,9 @@
                                 </div>
                             </div>
                             <?php
-                                include ($_SESSION['path'].'3-control/funciones/producto.php');
+                                $estePath=$_SESSION['path'].'3-control/funciones/producto.php';
+                                echo $estePath;
+                                include ($estePath);
                                 insertar(6);
                             ?>
                         </div>
