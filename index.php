@@ -2,7 +2,7 @@
     session_start();
     //$_SESSION['path']=$_SERVER['DOCUMENT_ROOT'];
     //$_SESSION['path'].='/cantinachichilo/admin/';
-    $_SESSION['path']='https://cantinachichilo.herokuapp.com/admin/';
+    $_SESSION['path']='cantinachichilo.herokuapp.com/admin/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
