@@ -6,6 +6,7 @@
     function insertar($tipo){
     echo $_SESSION['path'];
     $case="id";
+    echo $case;
     include ($_SESSION['path'].'3-control/crudProductos/buscar.php');
     $i=0;
     while ($row=mysqli_fetch_row($query2)){
