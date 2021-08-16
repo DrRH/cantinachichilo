@@ -6,7 +6,7 @@
     function insertar($tipo){
     echo $_SESSION['path'];
     $case="id";
-    include ('../crudProductos/buscar.php');
+    include ($_SERVER['DOCUMENT_ROOT'].'/admin/3-control/crudProductos/buscar.php');
     $i=0;
     while ($row=mysqli_fetch_row($query2)){
         echo 'entró al while';
