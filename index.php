@@ -507,7 +507,7 @@
                             <?php
                                 $estePath='./admin/3-control/funciones/producto.php';
                                 echo "'".$estePath."'";
-                                include ($estePath;
+                                include ($estePath);
                                 insertar(6);
                             ?>
                         </div>
