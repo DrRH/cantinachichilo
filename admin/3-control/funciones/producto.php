@@ -5,6 +5,7 @@
 //##########################################################################################################################################################################
     function insertar($tipo){
     echo $_SESSION['path'];
+    echo $_SERVER['DOCUMENT_ROOT'];
     $case="id";
     include ($_SERVER['DOCUMENT_ROOT'].'/admin/3-control/crudProductos/buscar.php');
     $i=0;
